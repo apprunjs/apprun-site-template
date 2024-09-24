@@ -1,0 +1,23 @@
+{
+  "name": "apprun-site-template",
+  "version": "1.0.0",
+  "description": "This site is built with [AppRun-Site](https://github.com/yysun/apprun-site).",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "apprun-site dev",
+    "build": "apprun-site build -c -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apprun": "^3",
+    "apprun-site": "^1",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  },
+  "type": "module"
+}
